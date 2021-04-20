@@ -1,0 +1,66 @@
+@import "globalStyle"; 
+@font-face {
+  font-family: 'Roboto Regular';
+  src: url('./assets/fonts/roboto/Roboto-Regular.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto Bold';
+  src: url('./assets/fonts/roboto/Roboto-Bold.ttf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RobotoSlab Regular';
+  src: url('./assets/fonts/robotoSlab/RobotoSlab-Regular.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'RobotoSlab Bold';
+  src: url('./assets/fonts/robotoSlab/RobotoSlab-Bold.ttf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+html {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+body {
+  font-family: 'Roboto', 'RobotoSlab', 'IBM Plex Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background: $lightmilk;
+  margin: 0;
+}
+#app {
+  background: $lightmilk;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+::-webkit-scrollbar-track{
+  border-radius: 3px;
+  background-color: $lightmilk;
+}
+
+::-webkit-scrollbar{
+  width: 3px;
+  background-color: $lightBlue;
+}
+
+::-webkit-scrollbar-thumb{
+  min-height: 100px;
+  border-radius: 3px;
+  background-color: $borderGray;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: $borderGray;
+}
